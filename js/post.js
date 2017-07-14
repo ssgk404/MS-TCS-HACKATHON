@@ -1,29 +1,23 @@
 function callCrudAction(action) {
 	var queryString;
-	switch(action) {
-		case "add":
+	
 			var name = $.trim($('#username').val());
 			var email = $.trim($('#email').val());
 			var contact = $.trim($('#contact').val());
 			var message = $.trim($('#txtmessage').val());
     		$("#loaderIcon").show();
-			queryString = 'action='+action+'&name='+ $("#username").val() +'&email='+ $("#email").val() + '&contact='+ $("#contact").val()+ '&message='+ $("#txtmessage").val();
-		break;
-		case "edit":
-		break;
+			queryString = 'name='+ $("#username").val() +'&email='+ $("#email").val() + '&contact='+ $("#contact").val()+ '&message='+ $("#txtmessage").val();
 		
-	}	 
+		
+		 
 	jQuery.ajax({
 	url: "controller/post.php",
 	data:queryString,
 	type: "POST",
 	success:function(data){
-		switch(action) {
-			case "add":
-				$("#comment-list-box").append(data);
-			break;
+		
+				$(".contact-form").append(data);
 			
-		}
 		$("#username").val('');
 		$("#email").val('');
 		$("#contact").val('');
