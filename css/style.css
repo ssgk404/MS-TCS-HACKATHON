@@ -1,0 +1,352 @@
+ body {
+      position: relative; 
+  }
+  #section1 {padding-top:50px;height:700px;color: #fff; font-weight:100px; background-image: url("../images/dark-circles.png"), url("../images/1png"), url("../images/DSC_0027.jpg");}
+  #section2 {padding-top:50px;height:500px;color: #fff; background-image: url("../images/grad_wh.jpg"); background-size:100% 100%;}
+  #section3 {padding-top:50px;height:500px;color: #fff;  background-image: url("../images/grad_blwh.jpg"); background-size:100% 100%;}
+  #section4 {padding-top:50px;height:700px;color: #fff; background-image: url("../images/grad_bl.png"); background-size:100% 100%;}
+  #section5 {padding-top:50px;height:700px;color: #fff;  background-image: url("../images/Transparent_Background.png"); background-size:100% 100%;}
+  
+  #section1 h4
+  {
+	  float:right;
+	  margin:5% 5% 0 0;
+  }
+  .container-fluid
+  {
+	--background:#1E88E5;
+  }
+  
+  #myNavbar
+  {
+	color:#fff;
+	background-image: url("../images/grad_bg.png"); background-size:100% 100%; 
+	margin-left:-15px;
+	margin-right:-15px;
+	text-align:right;
+  }
+
+  #myNavbar li a:active
+  {
+	background:red;
+  }
+  #section2
+  {
+	color:#000;
+	text-align:center;
+	padding:60px 100px;
+	line-height:2.5;
+	text-align: justify;
+    text-justify: inter-word;
+  }
+  #section3
+  {
+	color:#000;
+	text-align:center;
+	padding:60px 100px;
+	line-height:2.5;
+	text-align: justify;
+    text-justify: inter-word;
+	
+  }
+  #section3rowAlign
+  {
+	background:#fff;
+	margin:20px auto;
+	overflow:hidden;
+	border:1px dashed #d0d0d0;
+  }
+  #section3rowAlign:hover
+  {
+	border:1px solid #888;
+	cursor:pointer;
+  }
+  
+  .jobs_thumnails
+  {
+	height:150px;
+	overflow:hidden;
+  }
+  .jobs_thumnails:hover
+  {
+	padding:20px;
+	cursor:pointer;
+  }
+  .jobs_desc
+  {
+	text-align:center;
+	font-weight:bold;
+	z-index:1px;
+  }
+  #section4rowAlign
+  {
+	background:#fff;
+	margin:20px auto;
+	overflow:hidden;
+	border:1px dashed #d0d0d0;
+}
+  .skills_thumnails
+  {
+	height:150px;
+	overflow:hidden;
+	padding:20px;
+  }
+  .skills_thumnails:hover
+  {
+	padding:5px;
+	cursor:pointer;
+  }
+  .skills_desc
+  {
+	text-align:center;
+	font-weight:bold;
+	z-index:1px;
+	color:#3A5FCD;
+  }
+ 
+ #section5rowAlign
+ {
+	float:left;
+	margin: 60px 10%;
+	color:black;
+}
+.social-icon
+{
+	margin-top:80px;
+}
+ .social-icon a
+{
+	padding:15px 3px;
+}
+
+ .social-icon a:hover
+ {
+	
+	opacity:0.4;
+}
+  /* CONTACT US */
+  /*start .contact-form*/
+
+
+.contact-form{
+	max-width: 400px;
+	margin: 30px auto;
+}
+
+.contact-form .form-group{
+	margin-bottom: 0;
+	position: relative;
+}
+.contact-form input,
+.contact-form textarea{
+	margin-bottom: 0px;
+	background: #fff;
+	border:0px;
+}
+
+.contact-form input:focus{
+
+	border: 0px;
+	outline: none !important;
+}
+
+
+.contact-form input{
+	padding-left: 40px;
+	border:0px;
+}
+
+.contact-form textarea{
+	height: 100px !important;
+	padding-left: 40px;
+
+}
+.contact-form input[type="submit"]{
+
+	background: #5cb85c;
+}
+
+.glyphicon, .glyphicon-user, .glyphIcon
+{
+	padding:10px;
+	float: left;
+	position: relative;
+	top: -35px;
+	left: 0px;
+	color: #888;
+	border:1px solid #f0f0f0;
+	background: #f0f0f0 !important;
+}
+
+.contact-form .message-icon{
+	position: relative;
+    top: -310px;
+}
+
+.contact-form .send-icon{
+	color: #fff;
+}
+
+.contact-form .send-icon{
+	color: #fff;
+}
+
+.asterix{
+	position: absolute;
+    color: red;
+    float: right;
+    font-size: 20px;
+    height: 0;
+    right: 0;
+    top: 30px;
+	vertical-align:center;
+}
+
+span.cross {
+    position: absolute;
+    color: red;
+    float: right;
+    font-size: 20px;
+    height: 0;
+    /* overflow: hidden; */
+    right: 3px;
+    top: 0px;
+    display: none;
+	vertical-align:center;
+}
+
+i.fa.fa-check {
+    color: green;
+	top:0px;
+}
+.glyphicon-ok
+{
+	padding:0px;
+	color: green !important;
+	background:#fff !important;
+}
+span.verify {
+    position: absolute;
+    float: right;
+    font-size: 15px;
+    height: 0;
+    right: 10px;
+    top: 78px;
+    display: none;
+	background:#fff !important;
+}
+
+#alert-custom {
+    padding: 7px;
+    padding-right: 31px;
+}
+
+.custom-alert{
+
+	 padding: 0px;
+	 display: none;
+	 background:none;
+	 border:0px;
+	 
+}
+  .slideanim {visibility:hidden;}
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+
+  ::-webkit-scrollbar
+{
+  width: 12px;  /* for vertical scrollbars */
+  height: 12px; /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track
+{
+  background: rgba(0, 0, 0, 0.6);
+}
+
+::-webkit-scrollbar-thumb
+{
+  background-image: url("images/grad_bg.png");
+  border-radius:10%;
+}
+
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+        font-size: 150px;
+    }
+  }
+  @media only screen and (max-width: 900px) {
+  #section1 h4
+  {
+	  text-align:center;
+	  margin:50% 20% 0 0;	
+	color:red;	  
+  }
+.container-fluid
+{
+	width:100%; 
+}	  
+#section1 {padding-top:50px;height:300px; background-size:100% 100%;}
+#section2 {padding-top:50px;height:900px;}
+#section2 p{width:100%;}
+#section3 {padding-top:50px;height:1100px;color: #fff; }
+#section3rowAlign
+  {
+	background:#fff;
+	width:100%;
+	margin:0 auto;
+	overflow:hidden;
+	border:1px dashed #888;
+	color:#3A5FCD;
+  }
+ 
+  
+  #section4 {padding-top:50px;height:1500px;color: #fff; width:100%;	}
+   #section4rowAlign
+  {
+	width:50%;
+	background:#fff;
+	margin:0auto;
+	overflow:hidden;
+	border:1px dashed #d0d0d0;
+}
+  .col-xs-8 .col-sm-3
+  #section5 {padding-top:50px;height:1000px;}
+  
+  }
