@@ -214,15 +214,15 @@ So currently, I head a bunch of ventures. Trying to make a difference with a cle
 <h3 style='text-align:center; margin-top:10%;'>GALLERY<br><span class="caret" style='font-size:28px; '></span></h3>
   <div class="container">
     	<div id="carousel">
-			<figure><img src="http://lorempixel.com/186/116/nature/1" alt=""></figure>
-			<figure><img src="http://lorempixel.com/186/116/nature/2" alt=""></figure>
-			<figure><img src="http://lorempixel.com/186/116/nature/3" alt=""></figure>
-			<figure><img src="http://lorempixel.com/186/116/nature/4" alt=""></figure>
-			<figure><img src="http://lorempixel.com/186/116/nature/5" alt=""></figure>
-			<figure><img src="http://lorempixel.com/186/116/nature/6" alt=""></figure>
-			<figure><img src="http://lorempixel.com/186/116/nature/7" alt=""></figure>
-			<figure><img src="http://lorempixel.com/186/116/nature/8" alt=""></figure>
-			<figure><img src="http://lorempixel.com/186/116/people/9" alt=""></figure>
+			<figure><img src="/images/1.jpg" alt=""></figure>
+			<figure><img src="/images/2.jpg" alt=""></figure>
+			<figure><img src="/images/3.jpg" alt=""></figure>
+			<figure><img src="/images/4.jpg" alt=""></figure>
+			<figure><img src="/images/5.jpg" alt=""></figure>
+			<figure><img src="/images/6.jpg" alt=""></figure>
+			<figure><img src="/images/7.jpg" alt=""></figure>
+			<figure><img src="/images/8.jpg" alt=""></figure>
+			<figure><img src="/images/9.jpg" alt=""></figure>
 		</div>
 	</div>
 </div>
