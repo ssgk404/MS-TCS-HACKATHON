@@ -29,8 +29,8 @@
         <ul class="nav navbar-nav">
 		  <li><a href="#section1">SURENDRA SIGNH GURJAR</a></li>
           <li><a href="#section2">ABOUT</a></li>
-          <li><a href="#section3">WORK EXPERIENCE</a></li>
-          <li><a href="#section4">SKILLS</a></li>
+          <li><a href="#section3">WALK OF LIFE</a></li>
+          <li><a href="#section4">LEVEL OF TRAINING</a></li>
 		  <li><a href="#section5">GALLERY</a></li>
 		  <li><a href="#section6">CONTACT</a></li>
 		  
@@ -55,7 +55,7 @@ I came across the professional world a bit too early in my life, and I have enjo
 So currently, I head a bunch of ventures. Trying to make a difference with a clear cut resolution. Well, life has given a lot of adventures, and I am here, curiously waiting for the next one.</p>
 </div>
 <div id="section3" class="container-fluid ">
-  <h3 style='text-align:center;'>WORK EXPERIENCE <br><span class="caret" style='font-size:28px;'></span></h3>
+  <h3 style='text-align:center;'>WALK OF LIFE <br><span class="caret" style='font-size:28px;'></span></h3>
 
 	<div class="section3row">
 	  <div class="col-xs-8 col-sm-3 slideanim" id='section3rowAlign'>
@@ -111,7 +111,7 @@ So currently, I head a bunch of ventures. Trying to make a difference with a cle
 	</div>
 </div>
 <div id="section4" class="container-fluid slideanim">
-    <h3 style='text-align:center;'>SKILLS AND CERTIFICATIONS <br><span class="caret" style='font-size:28px;'></span></h3>
+    <h3 style='text-align:center;'>LEVEL OF TRAINING <br><span class="caret" style='font-size:28px;'></span></h3>
 	<div class="col-xs-8 col-sm-3 slideanim" id='section4rowAlign'>
 		<div class='skills_thumnails'>
 			<img src='images/php-logo.png' style='width:100%; height:100%;'>
