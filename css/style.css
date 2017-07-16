@@ -14,10 +14,7 @@
 	  float:right;
 	  margin:5% 5% 0 0;
   }
-  .container-fluid
-  {
-	--background:#1E88E5;
-  }
+
   
   #myNavbar
   {
@@ -30,7 +27,7 @@
 
   #myNavbar li a:active
   {
-	background:red;
+	
   }
   #section2
   {
@@ -322,9 +319,15 @@ span.verify {
   }
 .container-fluid
 {
-	width:100%; 
-	background:red;
-}	  
+	width:100% ; 
+	padding:20px !important;
+}	
+#about_cont
+{
+	
+	padding:0px; 
+	width:100%;
+}  
 #section1 {padding-top:50px;height:300px; background-size:100% 100%;}
 #section2 {padding-top:50px;height:900px;}
 #section2 p{width:100%;}
