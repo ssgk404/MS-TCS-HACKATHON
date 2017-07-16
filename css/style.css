@@ -412,13 +412,13 @@ span.verify {
 #carousel figure:nth-child(8) { transform: rotateY(280deg) translateZ(288px);}
 #carousel figure:nth-child(9) { transform: rotateY(320deg) translateZ(288px);}
 
-img{
+#carousel img{
 	-webkit-filter: grayscale(1);
 	cursor: pointer;
 	transition: all 2s ease;
 	
 }
-img:hover{
+#carousel img:hover{
 	-webkit-filter: grayscale(0);
   transform: scale(1.9,1.9);
 }
