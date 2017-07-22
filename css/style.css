@@ -314,7 +314,7 @@ span.verify {
   #section1 h4
   {
 	  text-align:center;
-	  margin:80% 30% 0 0;	
+	  margin:80% 50% 0 0;	
 	color:red;	  
   }
 .container-fluid
@@ -328,15 +328,15 @@ span.verify {
 	padding:0px; 
 	width:100%;
 }  
-#section1 {padding-top:60px;height:500px; background-size:100% 100%;}
-#section2 {padding-top:50px;height:900px;}
+#section1 {padding-top:60px;height:310px; background-size:100% 100%;overflow:hidden;}
+#section2 {padding-top:50px;height:700px; overflow:hidden;}
 #section2 p{width:100%;}
 #section3 {padding-top:50px;height:1100px;color: #fff; }
 #section3rowAlign
   {
 	background:#fff;
 	width:100%;
-	margin:0 auto;
+	margin:10px auto;
 	overflow:hidden;
 	border:1px dashed #888;
 	color:#3A5FCD;
@@ -348,7 +348,7 @@ span.verify {
   {
 	width:50%;
 	background:#fff;
-	margin:0auto;
+	margin:0 auto;
 	overflow:hidden;
 	border:1px dashed #d0d0d0;
 }
