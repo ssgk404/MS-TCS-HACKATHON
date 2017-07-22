@@ -2,10 +2,10 @@
       position: relative; 
   }
   #section1 {padding-top:50px;height:700px;color: #fff; font-weight:100px; background-image: url("../images/dark-circles.png"), url("../images/1png"), url("../images/DSC_0027.jpg");}
-  #section2 {padding-top:50px;height:500px;color: #fff; background-image: url("../images/grad_wh.jpg"); background-size:100% 100%;}
-  #section3 {padding-top:50px;height:500px;color: #fff;  background-image: url("../images/grad_blwh.jpg"); background-size:100% 100%;}
+  #section2 {padding-top:50px;height:700px;color: #fff; background-image: url("../images/grad_wh.jpg"); background-size:100% 100%; ;line-height:1.5;}
+  #section3 {padding-top:50px;height:700px;color: #fff;  background-image: url("../images/grad_blwh.jpg"); background-size:100% 100%;}
   #section4 {padding-top:50px;height:700px;color: #fff; background-image: url("../images/grad_bl.png"); background-size:100% 100%;}
-  #section5 {padding-top:50px;height:500px;color: #000; margin-top:80px; margin-bottom:80px;  background:#fff;}
+  #section5 {padding-top:50px;height:700px;color: #000; margin-top:80px; margin-bottom:80px;  background:#fff;}
   #section6 {padding-top:50px;height:700px;color: #fff;   background-image: url("../images/Transparent_Background.png"); background-size:100% 100%;}
   
  
