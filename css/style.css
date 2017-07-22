@@ -314,7 +314,7 @@ span.verify {
   #section1 h4
   {
 	  text-align:center;
-	  margin:60% 20% 0 0;	
+	  margin:80% 30% 0 0;	
 	color:red;	  
   }
 .container-fluid
@@ -328,7 +328,7 @@ span.verify {
 	padding:0px; 
 	width:100%;
 }  
-#section1 {padding-top:50px;height:300px; background-size:100% 100%;}
+#section1 {padding-top:60px;height:500px; background-size:100% 100%;}
 #section2 {padding-top:50px;height:900px;}
 #section2 p{width:100%;}
 #section3 {padding-top:50px;height:1100px;color: #fff; }
